@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #222;
+    font-family: 'Arial Narrow';
+    color: #fff;
+}
+
+.crud {
+    width: 80%;
+    margin: auto;
+}
+
+.header {
+    text-align: center;
+    margin: 2% 0;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    background-color: #111;
+    border-radius: 4px;
+    padding: 4px;
+    color: #fff;
+    border: none;
+    margin: 4px 0;
+    outline: none;
+
+}
+
+input:focus {
+    background-color: #000;
+}
+
+.price input {
+    width: 20%;
+}
+
+#total {
+    background-color: rgb(211, 0, 0);
+    padding: 5px 3px;
+    border-radius: 4px;
+}
+
+#total::before {
+    content: 'total:';
+}
+
+button {
+    width: 100%;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: rgb(209, 14, 144);
+    color: #fff;
+}
+
+button:hover {
+    background-color: rgb(244, 75, 204);
+    letter-spacing: 1.5px;
+    transition: 0.5s;
+}
+
+.searchpro {
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchpro button {
+    width: 40%;
+}
+
+table {
+    width: 100%;
+    margin: 10px 0;
+    text-align: center;
+}
+
+table th {
+    text-transform: uppercase;
+}
+
+th,
+td {
+    padding: 5px;
+}
+
+#deleteall {
+    margin: 20px 0;
+}
+
+/* ===============================register-Form=============== */
+
+.register-body {
+    background-color: #FFFFFF;
+}
+
+.register-body .container {
+    width: 60%;
+    margin: auto;
+    margin: 10%;
+    position: relative;
+    text-align: center;
+}
+
+#special {
+    color: #e12dc3;
+    font-weight: 800;
+    margin: 2%;
+}
+
+.register-body .container img {
+    position: relative;
+    width: 50%;
+    position: absolute;
+    top: 1%;
+    left: 80%;
+    animation: up-and-down 5s linear infinite;
+    border-radius: 50%;
+}
+
+@keyframes up-and-down {
+
+    0%,
+    100% {
+        top: 0;
+    }
+
+    50% {
+        top: -40px;
+    }
+}
+.input-form input {
+    background-color: #FFFFFF;
+    border: 2px solid #8d8789;
+    border-right: none;
+    color: #222;
+    margin: 15px;
+    padding: 1%;
+    width: 90%;
+}
+.input-form input::placeholder{
+    /* color:#FE659B ; */
+    font-family: Times, serif;
+    font-weight: 300;
+    font-size: 12px;
+}
+#register {
+    background-color: #FE659B;
+    color: #fff;
+    width: 30%;
+    text-align: center;
+    padding: 2px 0;
+    font-size: larger;
+    border-radius: 16px;
+    border: none;
+
+}
+
+#register:hover {
+    background-color: #e53371;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+.error {
+    color: rgb(152, 4, 4);
+    font-size: 16px;
+}
